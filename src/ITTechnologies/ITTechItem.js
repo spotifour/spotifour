@@ -1,11 +1,13 @@
 import React from "react";
 import "./ITTechnologies.css";
 
-function ITTechItem() {
+function ITTechItem({technology, description, image}) {
   return (
-    <header className='ITTechItem'>
-      <h1>ITTechItem</h1>
-    </header>
+    <div className='ITTechItem'>
+      <h3 className='ITTechName'>{technology}</h3>
+      <img className='ITTechImage' src={image} alt={technology} />
+      <p className='ITTechDescription'>{description}</p>
+    </div>
   );
 }
 

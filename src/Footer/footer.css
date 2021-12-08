@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  font-family: "Ubuntu";
+  color: #8f8f8f;
+}
+
+.footerNavItem {
+  text-decoration: none;
+  color: #000000;
+  margin: 30px 20px;
+}
+
+.footerNavItem:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+    margin: 35px 0;
+}

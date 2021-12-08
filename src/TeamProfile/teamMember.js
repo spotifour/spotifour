@@ -1,11 +1,13 @@
 import React from "react";
 import "./teamProfile.css";
 
-function TeamMember() {
+function TeamMember({name, img, description}) {
   return (
-    <header className='teamMember'>
-      <h1>TeamMember</h1>
-    </header>
+    <div className='teamMember'>
+      <img className='memberImg' src={img} alt={name}/>
+      <h3 className='memberName'>{name}</h3>
+      <p className='memberDescription'>{description}</p>
+    </div>
   );
 }
 

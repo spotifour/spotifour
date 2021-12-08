@@ -1,4 +1,47 @@
-* {
-  padding: 0;
-  margin: 0;
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
+
+.githubButton {
+  /* margin-top: 50px; */
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 10px;
+  border-radius: 4px;
+  background-color: #185ADB;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  min-width: 300px;
+}
+
+.websiteButton {
+  /* margin-top: 50px; */
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 16px;
+  background-color: #212529;
+  border: 1px solid #212529;
+  color: #fff;
+  min-width: 300px;
+}
+
+.websiteButton:hover {
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+.toolsLinks {
+  text-decoration: none;
+}
+
+
+

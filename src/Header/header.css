@@ -1,0 +1,61 @@
+#title {
+    background-color: #185ADB;
+    padding: 2% 10%;
+    color: #fff !important;
+}
+
+.navBar {
+    /* position: sticky; */
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamName {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navItems {
+    display: flex;
+    gap: 25px;
+}
+
+.navItem {
+    font-family: "Ubuntu";
+    color: rgba(255,255,255,.75);
+    text-decoration: none;
+}
+
+.navItem:hover {
+    color: #fff;
+}
+
+.banner {
+    margin-top: 60px;
+    display: flex;
+}
+
+.bannerRight {
+    flex: 55;
+}
+
+.bannerLeft {
+    flex: 45;
+    text-align: center;
+}
+
+.message {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.bannerImg {
+    width: 400px;
+    height: 400px;
+}
+
+.githubButton:hover {
+    background-color: #fff;
+    color: #000000;
+}

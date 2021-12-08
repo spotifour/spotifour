@@ -1,0 +1,48 @@
+#ITWork {
+    padding: 50px 10%;
+}
+
+.ITWorkInfo {
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.companyName {
+    color: #185adb;
+    text-decoration: none;
+}
+
+.companyName:hover {
+    text-decoration: underline;
+}
+
+.QnAs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.QnA {
+    font-family: "Ubuntu";
+    padding: 20px 20px;
+    border: 1px solid #e6e6e6;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22.5px;
+    font-weight: 500;
+}
+
+.answer {
+    margin-top: 20px;
+    color: #8f8f8f;
+    text-align: justify; 
+    line-height: 1.5;
+}

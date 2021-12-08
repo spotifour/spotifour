@@ -1,0 +1,71 @@
+#ITTechnologies {
+  padding: 50px calc(10% - 30px);
+  background-color: #185adb;
+  color: #fff;
+  text-align: center;
+}
+
+.sectionName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.ITTechItem {
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #000000;
+  overflow: scroll;
+  height: 400px;
+}
+
+.ITTechName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.ITTechItem:hover .ITTechName {
+    color: #185adb;
+}
+
+.ITTechImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  margin-bottom: 30px;
+}
+
+.ITTechDescription {
+  font-family: "Ubuntu";
+  color: #8f8f8f;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.slick-list {
+    margin: 0 -30px;
+}
+.slick-slide > div {
+    padding: 0 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff !important;
+}
+
+.slick-dots li button:before {
+    font-size: 10px !important;
+}
+
+.slick-dots {
+    bottom : -35px !important;
+}
