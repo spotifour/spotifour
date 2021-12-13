@@ -9,7 +9,13 @@ function ProjectIdeas() {
       Object.keys(projectInfo).map((section) => {
         console.log(section);
         const buttonStyles =
-          section === projectIdeasSection ? { backgroundColor: "#fff", color: "#000000", borderColor: "#000000" } : {};
+          section === projectIdeasSection
+            ? {
+                backgroundColor: "#fff",
+                color: "#000000",
+                borderColor: "#000000",
+              }
+            : {};
         let buttonText = "";
         switch (section) {
           case "overview":
@@ -24,8 +30,11 @@ function ProjectIdeas() {
           case "toolsAndTechnologies":
             buttonText = "4. Tools and technologies";
             break;
+          case "skillsRequired":
+            buttonText = "5. Skills Required";
+            break;
           case "outcome":
-            buttonText = "5. Outcome";
+            buttonText = "6. Outcome";
             break;
           default:
             break;
@@ -43,16 +52,23 @@ function ProjectIdeas() {
     [projectIdeasSection]
   );
 
+  const text = useMemo(() => {
+    return projectIdeasSection === "description"
+      ? projectInfo[projectIdeasSection].map((paragraph) => (
+          <>
+            <p>{paragraph}</p>
+            <br />
+          </>
+        ))
+      : projectInfo[projectIdeasSection];
+  }, [projectIdeasSection]);
+
   return (
     <div id="projectIdeas">
       <h2 className="sectionName">Project Ideas</h2>
       <div className="projectIdeasMain">
-        <div className="projectIdeasButtons">
-          {buttons}
-        </div>
-        <div className="projectIdeasText">
-          {projectInfo[projectIdeasSection]}
-        </div>
+        <div className="projectIdeasButtons">{buttons}</div>
+        <div className="projectIdeasText">{text}</div>
       </div>
     </div>
   );

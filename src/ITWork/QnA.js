@@ -17,7 +17,7 @@ function QnA({ question, answer }) {
           )}
         </span>
       </div>
-      {openAnswer ? <div className="answer">{answer}</div> : null}
+      {openAnswer ? <div className="answer">{answer.map(line => <><br></br><p>{line}</p></>)}</div> : null}
     </div>
   );
 }
