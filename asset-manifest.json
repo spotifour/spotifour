@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.d8b21c9b.chunk.css",
-    "main.js": "./static/js/main.c74645b6.chunk.js",
-    "main.js.map": "./static/js/main.c74645b6.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.c7155067.js",
-    "runtime-main.js.map": "./static/js/runtime-main.c7155067.js.map",
-    "static/css/2.1909e014.chunk.css": "./static/css/2.1909e014.chunk.css",
-    "static/js/2.b0fab012.chunk.js": "./static/js/2.b0fab012.chunk.js",
-    "static/js/2.b0fab012.chunk.js.map": "./static/js/2.b0fab012.chunk.js.map",
-    "static/js/3.edc42ff0.chunk.js": "./static/js/3.edc42ff0.chunk.js",
-    "static/js/3.edc42ff0.chunk.js.map": "./static/js/3.edc42ff0.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/2.1909e014.chunk.css.map": "./static/css/2.1909e014.chunk.css.map",
-    "static/css/main.d8b21c9b.chunk.css.map": "./static/css/main.d8b21c9b.chunk.css.map",
-    "static/js/2.b0fab012.chunk.js.LICENSE.txt": "./static/js/2.b0fab012.chunk.js.LICENSE.txt",
-    "static/media/slick-theme.css": "./static/media/slick.c94f7671.ttf"
+    "main.css": "/spotifour/static/css/main.b30b8a10.chunk.css",
+    "main.js": "/spotifour/static/js/main.d4f2f6cc.chunk.js",
+    "main.js.map": "/spotifour/static/js/main.d4f2f6cc.chunk.js.map",
+    "runtime-main.js": "/spotifour/static/js/runtime-main.89b97b98.js",
+    "runtime-main.js.map": "/spotifour/static/js/runtime-main.89b97b98.js.map",
+    "static/css/2.99d03d7f.chunk.css": "/spotifour/static/css/2.99d03d7f.chunk.css",
+    "static/js/2.b0fab012.chunk.js": "/spotifour/static/js/2.b0fab012.chunk.js",
+    "static/js/2.b0fab012.chunk.js.map": "/spotifour/static/js/2.b0fab012.chunk.js.map",
+    "static/js/3.edc42ff0.chunk.js": "/spotifour/static/js/3.edc42ff0.chunk.js",
+    "static/js/3.edc42ff0.chunk.js.map": "/spotifour/static/js/3.edc42ff0.chunk.js.map",
+    "index.html": "/spotifour/index.html",
+    "static/css/2.99d03d7f.chunk.css.map": "/spotifour/static/css/2.99d03d7f.chunk.css.map",
+    "static/css/main.b30b8a10.chunk.css.map": "/spotifour/static/css/main.b30b8a10.chunk.css.map",
+    "static/js/2.b0fab012.chunk.js.LICENSE.txt": "/spotifour/static/js/2.b0fab012.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/spotifour/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7155067.js",
-    "static/css/2.1909e014.chunk.css",
+    "static/js/runtime-main.89b97b98.js",
+    "static/css/2.99d03d7f.chunk.css",
     "static/js/2.b0fab012.chunk.js",
-    "static/css/main.d8b21c9b.chunk.css",
-    "static/js/main.c74645b6.chunk.js"
+    "static/css/main.b30b8a10.chunk.css",
+    "static/js/main.d4f2f6cc.chunk.js"
   ]
 }
