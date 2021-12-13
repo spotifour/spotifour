@@ -16,3 +16,20 @@
     gap: 30px;
     justify-content: center;
 }
+
+.toolsComment {
+    margin-top: 40px;
+    font-family: 'Ubuntu';
+    text-align: justify;
+    background-color: #f9f9f9;
+    color: #8f8f8f;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+.toolsCommentName {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}

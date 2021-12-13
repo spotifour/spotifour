@@ -30,11 +30,11 @@ function Footer() {
             Project Ideas
           </a>
         </span>
-        {/* <span>
+        <span>
           <a className="footerNavItem" href="#feedback">
             Feedback
           </a>
-        </span> */}
+        </span>
       </div>
       <div className="copyright">© Copyright 2021 Spotifour</div>
     </footer>

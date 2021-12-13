@@ -17,7 +17,7 @@ function App() {
       <ITWork />
       <ITTechnologies />
       <ProjectIdeas />
-      {/* <Feedback /> */}
+      <Feedback />
       <Footer />
     </div>
   );

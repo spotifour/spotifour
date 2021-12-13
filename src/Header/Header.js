@@ -35,11 +35,11 @@ function Header() {
               Project Ideas
             </a>
           </span>
-          {/* <span>
+          <span>
             <a className="navItem" href="#feedback">
               Feedback
             </a>
-          </span> */}
+          </span>
         </div>
       </header>
       <div className="banner">
