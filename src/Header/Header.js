@@ -47,7 +47,7 @@ function Header() {
           <h1 className="message">
             Introduction to IT - Assignment 2: The IT World
           </h1>
-          <a className='toolsLinks' href={repoGithubUrl}>
+          <a className='toolsLinks' href={repoGithubUrl} target="_blank" rel="noreferrer">
             <button className="githubButton">
               <GoMarkGithub />
               <span>Website's GitHub repository</span>

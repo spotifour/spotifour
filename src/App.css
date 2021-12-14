@@ -9,7 +9,7 @@
   font-family: "Montserrat", sans-serif;
   padding: 15px 10px;
   border-radius: 4px;
-  background-color: #185ADB;
+  background-color: #185adb;
   color: #fff;
   border: 1px solid #fff;
   font-size: 16px;
@@ -20,7 +20,6 @@
 }
 
 .websiteButton {
-  /* margin-top: 50px; */
   font-family: "Montserrat", sans-serif;
   padding: 15px 10px;
   border-radius: 4px;
@@ -43,5 +42,9 @@
   text-decoration: none;
 }
 
-
-
+.sectionName {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}

@@ -2,73 +2,78 @@ export const teamName = "spotifour";
 
 export const groupGithubUrl = "https://github.com/spotifour";
 export const repoGithubUrl = "https://github.com/spotifour/spotifour";
-export const DTNUrl = "https://www.dtn.com.vn/";
 
-export const teamMembers = [
+export const teamProfileItem = [
   {
-    name: "Dang Thai Hoang",
-    img: "ThaiHoang.jpg",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    section: 'Team Name',
+    text: [
+      "Our team’s name is Spotifour. All four members of our team love listening to music with Spotify - a digital music streaming service and the technologies behind this incredible app. Moreover, our group has four people, so we decided to mix Spotify (name of a digital music streaming service) and Four together to get Spotifour. In this project, we also want to create a web application for people to enjoy listening to their favourite sounds and music. Spotifour is the perfect name for representing our passions and upcoming projects.",
+    ],
   },
   {
-    name: "Le Trinh Quoc Huynh",
-    img: "QuocHuynh.jpeg",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    section: 'Personal information',
+    text: [
+      "VU TUAN LINH",
+      "My name is Vu Tuan Linh, my student number is s3927502, and my university email is s3927502@rmit.edu.vn. Chemistry was my specialty in the Hanoi-Amsterdam High School for Gifted Students. However, after graduating from high school, I recognized that information technology was my actual calling. As a result, I opted to pursue my first job as a web developer for a small software firm, where I worked for a year before returning to RMIT to continue my studies. I consider myself to be a lifelong student. As a result, I'm constantly keen to learn new technologies and put them into practice as quickly as feasible, usually through a personal project. I now only speak English and Vietnamese, but I would like to acquire another language (French or Spanish) in the future. I also enjoy reading nonfiction books and frequently write (in Vietnamese) and publish pieces on my own blog. It's where I share my experience and advice with readers in order to help them be more productive and live a healthier lifestyle. Since high school, I've been attracted by the rapid expansion of IT applications. My interest in this topic has grown as a result of reading about the founders of significant computer firms, particularly Steve Jobs' story of founding Apple from his garage. In terms of IT, I'm particularly interested in web and app development. As a result, after graduating from high school, I opted to start working as a web developer. My coding and teamwork abilities have improved dramatically after a year of working with my team to produce sophisticated e-commerce websites.",
+      "DAU HOANG MINH",
+      `My student number is s3926201, and my name is Dau Hoang Minh. I enjoy listening to music, playing board games, and being involved in charitable and environmental organizations. I've had an interest in computers since I was a youngster. My sister was studying for a "Master of Information Technology" when I was a kid, and I used to pester her with IT inquiries. My sister then went through some fundamental IT words with me, such as the Internet, applications, hacking, data storage, and so on. For me, the computer was a magnificent object that had a whole new universe within it at the moment. I was given the opportunity to learn the Python programming language in high school. Although most of my classmates are uninterested in this topic, I find myself very lucky to have this fascinating opportunity. I also represented my school in a tiny hackathon called "Hello World," where my team placed in the top five of the most successful teams. As a result of those experiences, I got a lot more confident in my abilities to study this area. Therefore, I chose RMIT University to pursue a "Bachelor of Information Technology."`,
+      "DANG THAI HOANG",
+      `My student number is s3927234, and my name is Dang Thai Hoang. My friends frequently use the terms "friendly" and "hilarious" to describe me. I enjoy learning many topics, including design, art, and science. Music is also a big passion of my life, both listening to it and playing it. Since I was a small child, I've always been a wicked kid who has always wanted to learn new things, especially about technology. My father and I spent a lot of time together trying to figure out topics like "What is inside a computer?" "How does a touch-screen work?" and "How does a website work?". I fell in love with this topic of study and hoped that I would be able to learn more about it in the future. At the moment, I am very proud to be a student at the Royal Melbourne Institute of Technology (RMIT) University, where I am majoring in Information Technology (IT). I've learned programming fundamentals so far using languages like Python, HTML, and CSS. Furthermore, I am familiar with basic UI and UX ideas by spending a few years developing logos and retouching photos. Learning at RMIT, I was fortunate enough to be assigned to a team of talented individuals; we are all IT enthusiasts who constantly go out of our way to assist one another. We are Spotifour!`,
+      'LE TRINH QUOC HUYNH',
+      `I am Le Trinh Quoc Huynh, my student number is s3925997, and my email is s3925997@rmit.edu.vn. I was born in Hanoi, Vietnam's capital city. I can understand how Vietnamese culture has evolved through time since I live in an extended family. Unlike many other Vietnamese families, my parents do not encourage me to study hard or obtain straight A's in school; instead, they want me to be self-aware and fully accountable for my studies. In addition to my mother tongue, I am also proficient in English. I've always wanted to study Chinese but have never had the opportunity. Physical activities and computer games do not stimulate me. Therefore, I spend most of my time listening to music. Opera is one of my favourite musical genres, and while it is popular in many European nations, few Vietnamese people love listening to it. Despite my passion for technology, I understood very little about programming or coding until I started high school. Ta Quang Buu High School was where I spent three years of my life. We were able to study a topic known as "STEM," which stands for "Science, Technology, Engineering, and Mathematics." Teachers showed us how to put together various scientific projects. However, my interest in technology was sparked by a competition where I paired up with a buddy to compete in a Scientific Contest organized by the Hanoi Department of Education and Training. We created a system that monitors the water environment in real-time. Nonetheless, as high school students, we lacked the necessary understanding to build such a complex project. Consequently, we learned a lot about coding, utilizing and calibrating sensors, etc.`
+    ],
   },
   {
-    name: "Vu Tuan Linh",
-    img: "TuanLinh.png",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    section: 'Team Profile',
+    text: [
+      "Personality assessments provide profiles of team members, which may be used to increase teamwork by bridging gaps in communication. These findings, we feel, will assist us in identifying our strengths and flaws. MBTI tests help us know more about each other’s personalities and position each person in roles that best fit their abilities. With the learning style test results, we can decide more accurately which member should do which part of the assignment. For the third test, all four of us chose various assessments on various platforms. However, most of the tests were creativity tests, so it is handy for us to distribute our work when tasks related to new ideas are needed.",
+      "Each of us receives and processes information differently, and our work habits reflect these variances. For example, Minh’s personality type is ESFJ based on the Myers-Briggs test, which indicates that he is an extroverted, enthusiastic individual who loves to work in groups rather than alone. In addition, he is also practical, focused on past or present occurrences, and extremely structured, placing a premium on clarity and planning. Therefore, to increase efficiency when working with others, Minh will offer to undertake the task that is acceptable for him. Since he is a very structured individual who prefers structure and organization to spontaneity, as part of a team, he will organize the assignment, distribute responsibilities evenly among the team members, and keep track of the progress.",
+      "When it comes to teamwork, it is suggested that Hoang take on the position of campaigner. He always finds methods to make our workplaces more pleasurable by encouraging everyone to share their thoughts and enthusiasm. Furthermore, tasks involving visuals pique his attention, and he will always do his best, in collaboration with our team, to come up with novel concepts. He is generally the one who wants to do research and come up with fresh ideas.",
+      "In terms of learning style, Linh considers himself to be a Visual/Tactical learner. To memorize, his major study method is to convert notes into charts and diagrams. Moreover, he can learn quickly by seeing others perform activities and then attempting to perform them on his own. As a result, it appeals that he would be the one who is capable of bringing an idea to real life. When working on assignments, he is always the person to expand and develop our thoughts on different topics.",
+      "With a creativity score of 72.01, which is higher than the typical score, Huynh seems to be the one who can think outside of the box and come up with new ideas for the whole team.",
+      "All these test results are not only convenient for us to divide work, but they also help us communicate with each other better. For instance, the Myers-Briggs test may indicate one’s personality, including if they are extroverted or introverted. Because their communication is more assertive, team members who endeavor to understand one another will likely increase their overall team performance. Team members will comprehend the best ways to interact with one another if they are aware of their own personality type and that of the other team members."
+    ],
   },
   {
-    name: "Dau Hoang Minh",
-    img: "HoangMinh.jpeg",
-    description:
+    section: 'Ideal Jobs',
+    text: [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-  },
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    ],
+  }
 ];
 
-export const MemberFeedbacks = [
-  {
-    name: "Dang Thai Hoang",
-    image: "ThaiHoang.jpg",
-    feedback: [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-    ],
-  },
-  {
-    name: "Le Trinh Quoc Huynh",
-    image: "QuocHuynh.jpeg",
-    feedback: [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-    ],
-  },
-  {
-    name: "Vu Tuan Linh",
-    image: "TuanLinh.png",
-    feedback: [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-    ],
-  },
-  {
-    name: "Dau Hoang Minh",
-    image: "HoangMinh.jpeg",
-    feedback: [
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-    ],
-  },
-];
+export const teamProfileInfo = {
+  teamName: [
+    "Our team’s name is Spotifour. All four members of our team love listening to music with Spotify - a digital music streaming service and the technologies behind this incredible app. Moreover, our group has four people, so we decided to mix Spotify (name of a digital music streaming service) and Four together to get Spotifour. In this project, we also want to create a web application for people to enjoy listening to their favourite sounds and music. Spotifour is the perfect name for representing our passions and upcoming projects.",
+  ],
+  personalInformation: [
+    "VU TUAN LINH",
+    "My name is Vu Tuan Linh, my student number is s3927502, and my university email is s3927502@rmit.edu.vn. Chemistry was my specialty in the Hanoi-Amsterdam High School for Gifted Students. However, after graduating from high school, I recognized that information technology was my actual calling. As a result, I opted to pursue my first job as a web developer for a small software firm, where I worked for a year before returning to RMIT to continue my studies. I consider myself to be a lifelong student. As a result, I'm constantly keen to learn new technologies and put them into practice as quickly as feasible, usually through a personal project. I now only speak English and Vietnamese, but I would like to acquire another language (French or Spanish) in the future. I also enjoy reading nonfiction books and frequently write (in Vietnamese) and publish pieces on my own blog. It's where I share my experience and advice with readers in order to help them be more productive and live a healthier lifestyle. Since high school, I've been attracted by the rapid expansion of IT applications. My interest in this topic has grown as a result of reading about the founders of significant computer firms, particularly Steve Jobs' story of founding Apple from his garage. In terms of IT, I'm particularly interested in web and app development. As a result, after graduating from high school, I opted to start working as a web developer. My coding and teamwork abilities have improved dramatically after a year of working with my team to produce sophisticated e-commerce websites.",
+    "DAU HOANG MINH",
+    `My student number is s3926201, and my name is Dau Hoang Minh. I enjoy listening to music, playing board games, and being involved in charitable and environmental organizations. I've had an interest in computers since I was a youngster. My sister was studying for a "Master of Information Technology" when I was a kid, and I used to pester her with IT inquiries. My sister then went through some fundamental IT words with me, such as the Internet, applications, hacking, data storage, and so on. For me, the computer was a magnificent object that had a whole new universe within it at the moment. I was given the opportunity to learn the Python programming language in high school. Although most of my classmates are uninterested in this topic, I find myself very lucky to have this fascinating opportunity. I also represented my school in a tiny hackathon called "Hello World," where my team placed in the top five of the most successful teams. As a result of those experiences, I got a lot more confident in my abilities to study this area. Therefore, I chose RMIT University to pursue a "Bachelor of Information Technology."`,
+    "DANG THAI HOANG",
+    `My student number is s3927234, and my name is Dang Thai Hoang. My friends frequently use the terms "friendly" and "hilarious" to describe me. I enjoy learning many topics, including design, art, and science. Music is also a big passion of my life, both listening to it and playing it. Since I was a small child, I've always been a wicked kid who has always wanted to learn new things, especially about technology. My father and I spent a lot of time together trying to figure out topics like "What is inside a computer?" "How does a touch-screen work?" and "How does a website work?". I fell in love with this topic of study and hoped that I would be able to learn more about it in the future. At the moment, I am very proud to be a student at the Royal Melbourne Institute of Technology (RMIT) University, where I am majoring in Information Technology (IT). I've learned programming fundamentals so far using languages like Python, HTML, and CSS. Furthermore, I am familiar with basic UI and UX ideas by spending a few years developing logos and retouching photos. Learning at RMIT, I was fortunate enough to be assigned to a team of talented individuals; we are all IT enthusiasts who constantly go out of our way to assist one another. We are Spotifour!`,
+    'LE TRINH QUOC HUYNH',
+    `I am Le Trinh Quoc Huynh, my student number is s3925997, and my email is s3925997@rmit.edu.vn. I was born in Hanoi, Vietnam's capital city. I can understand how Vietnamese culture has evolved through time since I live in an extended family. Unlike many other Vietnamese families, my parents do not encourage me to study hard or obtain straight A's in school; instead, they want me to be self-aware and fully accountable for my studies. In addition to my mother tongue, I am also proficient in English. I've always wanted to study Chinese but have never had the opportunity. Physical activities and computer games do not stimulate me. Therefore, I spend most of my time listening to music. Opera is one of my favourite musical genres, and while it is popular in many European nations, few Vietnamese people love listening to it. Despite my passion for technology, I understood very little about programming or coding until I started high school. Ta Quang Buu High School was where I spent three years of my life. We were able to study a topic known as "STEM," which stands for "Science, Technology, Engineering, and Mathematics." Teachers showed us how to put together various scientific projects. However, my interest in technology was sparked by a competition where I paired up with a buddy to compete in a Scientific Contest organized by the Hanoi Department of Education and Training. We created a system that monitors the water environment in real-time. Nonetheless, as high school students, we lacked the necessary understanding to build such a complex project. Consequently, we learned a lot about coding, utilizing and calibrating sensors, etc.`
+  ],
+  teamProfile: [
+    "Personality assessments provide profiles of team members, which may be used to increase teamwork by bridging gaps in communication. These findings, we feel, will assist us in identifying our strengths and flaws. MBTI tests help us know more about each other’s personalities and position each person in roles that best fit their abilities. With the learning style test results, we can decide more accurately which member should do which part of the assignment. For the third test, all four of us chose various assessments on various platforms. However, most of the tests were creativity tests, so it is handy for us to distribute our work when tasks related to new ideas are needed.",
+    "Each of us receives and processes information differently, and our work habits reflect these variances. For example, Minh’s personality type is ESFJ based on the Myers-Briggs test, which indicates that he is an extroverted, enthusiastic individual who loves to work in groups rather than alone. In addition, he is also practical, focused on past or present occurrences, and extremely structured, placing a premium on clarity and planning. Therefore, to increase efficiency when working with others, Minh will offer to undertake the task that is acceptable for him. Since he is a very structured individual who prefers structure and organization to spontaneity, as part of a team, he will organize the assignment, distribute responsibilities evenly among the team members, and keep track of the progress.",
+    "When it comes to teamwork, it is suggested that Hoang take on the position of campaigner. He always finds methods to make our workplaces more pleasurable by encouraging everyone to share their thoughts and enthusiasm. Furthermore, tasks involving visuals pique his attention, and he will always do his best, in collaboration with our team, to come up with novel concepts. He is generally the one who wants to do research and come up with fresh ideas.",
+    "In terms of learning style, Linh considers himself to be a Visual/Tactical learner. To memorize, his major study method is to convert notes into charts and diagrams. Moreover, he can learn quickly by seeing others perform activities and then attempting to perform them on his own. As a result, it appeals that he would be the one who is capable of bringing an idea to real life. When working on assignments, he is always the person to expand and develop our thoughts on different topics.",
+    "With a creativity score of 72.01, which is higher than the typical score, Huynh seems to be the one who can think outside of the box and come up with new ideas for the whole team.",
+    "All these test results are not only convenient for us to divide work, but they also help us communicate with each other better. For instance, the Myers-Briggs test may indicate one’s personality, including if they are extroverted or introverted. Because their communication is more assertive, team members who endeavor to understand one another will likely increase their overall team performance. Team members will comprehend the best ways to interact with one another if they are aware of their own personality type and that of the other team members."
+  ],
+  idealJobs: [
+    "All four positions require us to have a Bachelor’s degree or a Master’s degree and be quite experienced when working with IT problems. Moreover, applicants must be skillful and can master the programming language they use. For instance, Hoang and Minh are required to know HTML, CSS, and Javascript like the back of their hands. Meanwhile, Huynh and Linh must have vast knowledge about C++ or Python to deal with Machine Learning. Although the requirements of hard skills for each job are different, all four positions share similarities in soft skills. We will need to be fluent in English and be able to communicate effectively with either our customers or colleagues. Furthermore, since we will have to work with computers and software a lot, it is a must to show exceptional problem-solving and critical thinking skills.",
+    "Tuan Linh has always liked creating frontends for websites that provide a fantastic user interface/experience and integrate with the logic in the backend and database. This role allows him to delve deeply into self-driving vehicle technologies by developing, optimizing, and analyzing data to generate new methods for generating complicated advanced Machine Learning models. As a result, it is a fantastic match for his interests. Candidates must also have extensive expertise developing large-scale online apps utilizing cutting-edge web technologies such as Angular, TypeScript, or JavaScript. Furthermore, individuals with a Master's degree and experience with data visualization and analysis frameworks are preferred.",
+    "Surprisingly, Minh and Hoang's ideal jobs were quite the same. They both want to work with websites. While Minh intends to become a Web Developer, Hoang's perfect position is a Frontend Developer. For Web Developers, applicants will be responsible for building and modifying websites and contributing to the test plan and design by developing unit test cases. Select developers will also be expected to assist with system integration and communicate with testing teams and customers to fix any bugs that may surface while using the system. Meanwhile, as a Frontend Developer, it is Hoang's responsibility to create user interfaces and interactive aspects for the website and application. To meet the project's objectives, he must collaborate successfully with his team and communicate effectively with consumers. In contrast, Huynh's ideal job is quite different from other teammates' ones. He wants to become an AI Manager. Furthermore, he will also assist in the selection of associated technologies for developing AI/ Machine Learning models, take part in creating methods for implementing AI projects and products (ML model development lifecycle), using Deep Learning, Computer Vision, and Machine Learning methodologies, create, and build AI solutions into products.",
+    "Since we are all majoring in Information Technology, we all aim to work in the IT industry. However, each person's plan to achieve their dream is different, and everyone has their own way of getting what they want. As we are currently freshmen at RMIT, our first goal is to complete the program and get a bachelor’s degree.",
+    "During those three years, Minh and Hoang want to take advantage of all available possibilities to further their knowledge of IT, notably software programming and cloud computing. They will read new texts at the basic and intermediate levels, as well as enroll in various online courses to improve their understanding of numerous programming languages. Minh plans to start by learning Python and JavaScript and then go on to Java and HTML & CSS. Meanwhile, Linh plans to continue strengthening his expertise in frontend development and learn new programming languages by taking online courses in Udemy or Linkedin Learning in his free time. If it is possible, in the future, Hoang would like to join the SAS Tutor team, so not only can he help others with their study but also it is a good chance for him to structure his knowledge and understanding in the IT field. For Huynh, to obtain experience, he will apply for an internship or work in an AI agency. In addition, he will take external Deep Learning and Big Data classes because the company needs applicants to have an in-depth understanding of not just AI but also Big Data and Machine Learning. Because AI is a field that necessitates a high level of expertise, he would consider pursuing a master's or doctorate degree in Australia."
+  ],
+};
 
 export const toolsComment = {
   para1:
@@ -77,22 +82,81 @@ export const toolsComment = {
     "Because this project is not complex, we only use one main branch for our code for simplicity.  When finishing certain features, we can commit and push directly to the remote repository on our GitHub page. Git and Github have fastened and improved our process of developing, maintaining and deploying our website tremendously. While Git allows us to see the changes when comparing the code at the current moment with the last commit, GitHub helps store the code on the Internet and host our website.",
 };
 
+export const ITWorkIntro = {
+  question: "Introduction",
+  answer: [
+    "The IT professional we interviewed is Mr. Hans; his full name is Phung Van Hanh. He is the CTO (Chief Technology Officer) of DTN Software Solutions, an IT company specializing in providing eCommerce development solutions for customers worldwide, mainly in Europe. His company focuses on building e-commerce websites using Magento, an e-commerce platform written in PHP programming language and was acquired by Adobe in May 2018.",
+  ],
+};
+
 export const ITWorkQnAs = [
   {
-    question: "Introduction",
+    question: "Q1: Please tell us about your IT work. What exactly do you do?",
     answer: [
-      "The IT professional we interviewed is Mr. Hans; his full name is Phung Van Hanh. He is the CTO (Chief Technology Officer) of DTN Software Solutions, an IT company specializing in providing eCommerce development solutions for customers worldwide, mainly in Europe. His company focuses on building e-commerce websites using Magento, an e-commerce platform written in PHP programming language and was acquired by Adobe in May 2018.",
+      "I'm the CTO of DTN Software Solutions. Our IT company specializes in providing e-commerce development solutions for customers around the world, mostly in Europe.",
+      "We're focusing on building e-commerce websites using Magento. This is an e-commerce platform written in PHP language. I handle major areas such as developing employees’ technical skills, reviewing their codes, maintaining business apps and optimizing them. I also develop company technical stacks, keep them up to date with technology changes."
     ],
   },
   {
+    question: "Q2. Please tell us about the industry you work in.",
+    answer: [
+      "As being said, we're providing e-commerce solutions for customers, building an ecosystem around Magento. But not only websites, but we also create mobile apps, integrate online customer channels with other systems like ERP, POS, and support customers on marketing activities.",
+    ],
+  },
+  {
+    question: "Q3. What other kinds of work do you have to do?",
+    answer: [
+      "Besides technical stuff, I also take part in general company management activities such as interviewing candidates, determining whether or not they are qualified for specific positions. I also conduct annual reviews of employees and work with other people to build the company learning culture.",
+    ],
+  },
+  {
+    question: "Q4. Who are all the different people you interact with within your work? Please tell us about them?",
+    answer: [
+      "I interact with many people at work. Mostly with the developers, yes, because I'm a tech lead. I help them with solutions for the problem they may have, review their code, train them. Besides that, I also work with the project management and quality assurance team, discussing projects timeline, quality, human resources, and so on. Last but not least, I also join with the BA team working directly with the clients in clarifying their business requirements, providing solutions for their needs.",
+    ],
+  },
+  {
+    question: "Q5. Please tell us about your interactions with other IT professionals.",
+    answer: [
+      "I like watching videos and reading blog posts from other IT professionals. I can learn many new skills from them. Not only getting, but I also want to share my knowledge with others in the same ways. I have my personal blog for this, where I post things about Magento, website technologies and DevOps.  To me, sharing is the best way to learn. For more people getting to know about my blog, I usually share posts on programming groups on Facebook or Twitter. I find that Twitter is a pretty good place where you can learn new things from other IT professionals, keep you up to date with technology trending, and share your knowledge.",
+    ],
+  },
+  {
+    question: "Q6. What about your interactions with clients or investors?",
+    answer: [
+      "Our customers are mostly from English-speaking countries. I work with them to discuss their business requirements, their project milestones and manage human resources. One of the most difficult things to handle when interacting with clients is filling the gap between the business person and us, as technical professionals. There are usually misunderstandings between the two. As a technical person, you also need to understand how customer business works, not only online e-commerce, but also other aspects around it, like marketing tools, order management process, stock management, SEO, or any other system that might play a role in business flow.",
+    ],
+  },
+  {
+    question: "Q7. What aspects of your work do you spend the most time on? Please tell us about these.",
+    answer: [
+      "I think I spend most of my time at work reviewing code and setting up a working environment. We aim to achieve high coding quality as much as possible to deliver the best product quality to customers. I take responsibility for many projects at a time, so reviewing code is an important as well as most time-consuming part of my daily work. It usually takes me about 1 - 2 hours on this. Another thing is setting up a working environment, deployment, making sure the team members have everything they need to focus on coding, and not having to worry about other things.",
+    ],
+  },
+  {
+    question: "Q8. Which aspects of your work do you find most challenging?",
+    answer: [
+      "It's training people. Leading people means dealing with different personalities and abilities. You have to find and understand the ways to develop an employee to their best version, improve their work skills, and by doing that, add more value to the company in the market. Technically, there is not the best way that works for everyone. Some may enjoy working with Frontend technologies like Javascript, CSS, React,... or some may find Backend or DevOps interesting. Find their strengths and give them suggestions, training sessions, or courses, so they can develop themselves most effectively.",
+    ],
+  },
+  {
+    question: "Q9. Finally, can you share an example of the work you do that best captures the essence of the IT industry?",
+    answer: [
+      `I do not really know which project best captures the essence of the IT industry, but there was one project I undertook recently, which focused on our strength-building e-commerce websites. That was for “The Body Shop” - a famous UK-originated brand in 3 Asian countries, including Malaysia, Cambodia and Vietnam. If my memory serves me right, it was in 2013 when our company signed the contract with “The Body Shop”, officially in charge of building their websites. The first version was built based on Magento 1.6. And recently in 2021, they talked with us again about updating their website to the next level. We agreed to their request and assisted them in upgrading their current website, both front-end and back-end. There are 3 noticeable changes in this launch: updated new design, upgraded to Magento 2, and applied PWA technology (Progressive Web App). It was a truly unique project when an old friend returned to look for us after almost a decade. This project also marks a milestone in DTN’s journey of building e-commerce websites.`,
+    ],
+  },
+]
+
+export const ITWorkSummary = [
+  {
     question: "What kind of work is done by the IT professional?",
     answer: [
-      "His company provides eCommerce solutions for customers and builds an ecosystem around Magento, an open-source platform for eCommerce websites. In addition to developing websites, they also create mobile apps, integrate online customer channels with other systems like ERP (Enterprise Resource Planning), POS (Point Of Sales), and support customers on marketing activities.",
+      "His company provides customers with e-commerce solutions and builds an ecosystem around Magento, an open-source platform for e-commerce websites. In addition to developing websites, they also create mobile apps, integrate online customer channels with other systems like ERP (Enterprise Resource Planning), POS (Point Of Sales), as well as assist customers with marketing activities.",
       "Therefore, as a Chief Technology Officer of a technological company, he handles those major areas:",
-      "- Develop company technical stacks, keep them up to date with technology changes",
-      "- Develop employees’ technical skills",
-      "- Deploys, maintains business applications, services, and infrastructure",
-      "- Monitors, optimizes, troubleshoots the performance of applications, services and infrastructure",
+      "- Develop technical stacks for the company and keep them up to date with technology changes.",
+      "- Develop employees’ technical skills, help them to improve their programming skills.",
+      "- Deploys, maintains business applications, services, and infrastructure.",
+      "- Monitors, optimizes, troubleshoots the performance of applications, services and infrastructure.",
       "- Do technical lead, write boilerplate code, review code",
       "Besides technical tasks, he also participates in general company management activities like interviewing candidates, reviewing employees annually, and building a company learning culture.",
     ],
@@ -101,24 +165,23 @@ export const ITWorkQnAs = [
     question:
       "What kinds of people does the IT professional interact with? Are they other IT professionals? Clients? Investors? The general public?",
     answer: [
-      "He interacts with a variety of people at work. Because he is a tech lead, he primarily interacts with the developers. He helps them come up with solutions for their problems, reviews their code, and trains them. Besides that, he also works with the project management and quality assurance teams to discuss projects timeline, working quality, human resources, etc. Last but not least, he also joins with the BA (Business Analysis) team to work directly with the clients in clarifying their business requirements, so his company can provide appropriate solutions for their needs.",
-      "In terms of his interaction with other IT professionals, he likes watching videos and reading their blog posts to acquire new skills. Moreover, he also wants to share his knowledge with others in the same ways. Therefore, he has his personal blog for this, where he posts things about Magento, website technologies and DevOps. To attract more people to see his blog, he usually shares posts on programming groups on Facebook or Twitter. He finds that Twitter is a pretty good place where IT professionals can learn new things from others, keep them up to date with technology changes in their fields, as well as share their knowledge.",
-      "His role does not require him to contact the general public. His company only provides eCommerce solutions for clients, and those customers are the people who are responsible for managing their web as well as communicating with users - the general public.",
+      "He interacts with a variety of people at work. Because he is a tech lead, he primarily interacts with the developers. He assists them in developing solutions to their problems, reviewing their code, and providing training. He also collaborates with the project management and quality assurance teams to discuss project timelines, working quality, human resources, etc. Finally, he joins with the BA (Business Analysis) team to work directly with the clients in clarifying their business requirements, so his company can provide appropriate solutions for their needs.",
+      "In terms of his interaction with other IT professionals, he likes watching videos and reading their blog posts to acquire new skills. In addition, he wishes to share his knowledge with others in the same manner. Therefore, he maintains a personal blog where he posts things about Magento, website technologies and DevOps. To attract more people to see his blog, he usually shares posts on programming groups on Facebook or Twitter. He finds that Twitter is a pretty good place where IT professionals can learn new things from others, keep them up to date with technology changes in their fields, as well as share their knowledge.",
+      "His role does not require him to contact the general public. His company only provides e-commerce solutions for clients, and those customers are the people who are responsible for managing their web as well as communicating with users - the general public.",
     ],
   },
   {
     question: "Where do the IT professionals spend most of their time?",
     answer: [
-      "He said that he spent the most time reviewing code and setting up a working environment at the company's office. He always prioritizes achieving high coding quality to deliver the best product quality to customers. He takes responsibility for many projects at a time, so reviewing code is the most critical and time-consuming part of his daily work. It usually takes him about 1 - 2 hours to do this daily.",
-      "His other tasks include setting up the working environment for each project, deploying websites, providing any supplies if needed, ensuring the team members have everything they need. Every computer comes with an on-ear headphone to keep users from being distracted by outside noises. Each employee also has a personal space where they can store personal items such as writing pads, catalog envelopes, self-stick notes, and so on. Snacks, tea, and coffee are also available on two tables for employees to use whenever they are tired or hungry. Thanks to those working conditions, all technical employees can focus on coding, and not have to worry about other problems that might distract them.",
-      "For him, the office is a second home where he eats, sometimes even cooks, does exercises, and communicates with others on a daily basis. Due to the Covid-19 pandemic, there were times that he and his co-workers were not allowed to go to the offices, so he had to spend most of his time working alone at home. However, he still prefers to work in the office rather than at home because meeting offline improves working efficiency and employee relationships.",
+      "He said that he spent the most time reviewing code and setting up a working environment at the company's office. He always prioritizes achieving high coding quality to deliver the best product quality to customers. Because he is in charge of multiple projects at once, reviewing code is the most important and time-consuming aspect of his daily work. It takes him about 1 to 2 hours per day to complete this task. His other task includes setting up the working environment for each project, deploying websites, providing any necessary supplies, and ensuring that the team members have everything they need.",
+      "Due to the Covid-19 pandemic, he and his co-workers had to spend several months working from home. As a result, he had to spend the majority of his time working alone at home. There was a considerable difference between working at home and at the office, but he still managed to adjust to this new working schedule. His team attended team meetings to share their ideas and keep up with the working process. He also used several online tools to manage his work, deadlines and divide appropriate tasks among team members.",
     ],
   },
   {
     question: "What aspect of their position is most challenging?",
     answer: [
-      "In his opinion, the most challenging aspect is training people. Leading people means dealing with different personalities and abilities. He always has to find and understand how to develop an employee to their best version and improve their work skills to add more value to the company in the market. Technically, he thinks that there is no best way to work for everyone. Some may enjoy working with Frontend technologies like Javascript, CSS, React, ... or some may find Backend or DevOps interesting. He identifies their strengths and gives them suggestions, training sessions, or courses so they can develop themselves most effectively.",
-      "In addition, interacting with clients is another aspect he finds challenging. He must fill the gap between business people and the technical team because they usually have misunderstandings. Sometimes, the technical team do not understand clearly the requirement of customers and As a technical person, he also needs to understand how customer business works, not only online eCommerce, but also many problems around it, like marketing tools, order management process, stock management, SEO, or any other system.",
+      "In his opinion, the most challenging aspect is training people. Leading people means dealing with different personalities and abilities. Managing people entails juggling a variety of personalities and abilities. He must always find and comprehend how to grow an employee to their full potential and improve their work abilities to increase the company's market worth. Technically, he believes that there is no one-size-fits-all approach to working. Some people prefer frontend technologies like Javascript, CSS, React, etc., while others prefer backend or DevOps. He pinpoints their strengths and offers advice, training sessions, or courses so they can develop themselves most effectively.",
+      "In addition, interacting with clients is another aspect he finds challenging. He must bridge the gap between the business and technical teams, as there are frequent misunderstandings. Client requirements are sometimes misunderstood by the technical team, resulting in a final product that does not meet the customers' expectations. Customers may also be unaware of the technical team's capabilities, resulting in unreasonable requests that exceed the allocated budget. As a technical person, he must also comprehend how customer businesses operate, not only in terms of online e-commerce but also in terms of a variety of issues related to it. These can be marketing tools, order management processes, stock management, SEO (Search Engine Optimization), and any other system.",
     ],
   },
 ];
@@ -286,3 +349,42 @@ export const projectInfo = {
   outcome:
     "We aim to start MinS with a website platform and then transition to a mobile application that can run on both IOS and Android devices. RMIT students will be the first to utilize MinS before it is made available to other Internet users. If this project is successfully deployed, people will have a nice place to relax and enjoy high-quality melodies even if they are in bustling areas of the city. In addition, people can also use MinS while studying to improve concentration and efficiency or while sleeping to have a good relaxation. In the future, we will frequently upgrade MinS with more locations and soundtracks, as well as fix and modify the website according to users' feedback at the same time.",
 };
+
+export const MemberFeedbacks = [
+  {
+    name: "Dang Thai Hoang",
+    image: "ThaiHoang.jpg",
+    feedback: [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    ],
+  },
+  {
+    name: "Le Trinh Quoc Huynh",
+    image: "QuocHuynh.jpeg",
+    feedback: [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    ],
+  },
+  {
+    name: "Vu Tuan Linh",
+    image: "TuanLinh.png",
+    feedback: [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    ],
+  },
+  {
+    name: "Dau Hoang Minh",
+    image: "HoangMinh.jpeg",
+    feedback: [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    ],
+  },
+];

@@ -7,13 +7,13 @@ function QnA({ question, answer }) {
 
   return (
     <div className="QnA">
-      <div className="question">
+      <div className="question" onClick={() => setOpenAnswer(!openAnswer)}>
         <p>{question}</p>
         <span>
           {openAnswer ? (
-            <AiOutlineCaretUp onClick={() => setOpenAnswer(false)} />
+            <AiOutlineCaretUp />
           ) : (
-            <AiOutlineCaretDown onClick={() => setOpenAnswer(true)} />
+            <AiOutlineCaretDown />
           )}
         </span>
       </div>

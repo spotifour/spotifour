@@ -9,13 +9,13 @@ function Tools() {
     <div id="tools">
       <h2 className="sectionName">Tools</h2>
       <div className="toolsButtons">
-        <a className='toolsLinks' href={repoGithubUrl}>
+        <a className='toolsLinks' href={repoGithubUrl} target="_blank" rel="noreferrer">
           <button className="githubButton">
             <GoMarkGithub />
             <span>Website's GitHub repository</span>
           </button>
         </a>
-        <a className='toolsLinks' href={"/spotifour"}>
+        <a className='toolsLinks' href={"/spotifour"} target="_blank" rel="noreferrer">
           <button className="websiteButton">
             <CgWebsite />
             <span>Check our website here</span>

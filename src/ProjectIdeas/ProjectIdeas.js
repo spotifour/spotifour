@@ -7,7 +7,6 @@ function ProjectIdeas() {
   const buttons = useMemo(
     () =>
       Object.keys(projectInfo).map((section) => {
-        console.log(section);
         const buttonStyles =
           section === projectIdeasSection
             ? {
