@@ -1,9 +1,19 @@
 import React, { useState, useMemo } from "react";
 import "./teamProfile.css";
-import { teamProfileInfo } from "../const";
+import { teamProfileInfo, teamMembers } from "../const";
 
 function TeamProfile() {
   const [teamProfileSection, setTeamProfileSection] = useState("teamName");
+
+  const membersInfo = teamMembers.map((member) => {
+    return (
+      <div>
+        <img className="memberImg" src={member.image} alt={member.name} />
+        <h3 className="memberName">{member.name}</h3>
+      </div>
+    );
+  });
+  
   const buttons = useMemo(
     () =>
       Object.keys(teamProfileInfo).map((section) => {
@@ -46,17 +56,29 @@ function TeamProfile() {
   );
 
   const text = useMemo(() => {
-    return teamProfileInfo[teamProfileSection].map((paragraph) => (
-      <>
-        <p>{paragraph}</p>
-        <br />
-      </>
-    ));
+    return teamProfileInfo[teamProfileSection].map((section) => {
+      const content =
+        teamProfileSection === "personalInformation" ? (
+          <>
+            <p style={{ color: "#000000", fontWeight: 700 }}>{section.name}</p>
+            <br />
+            <p>{section.description}</p>
+            <br />
+          </>
+        ) : (
+          <>
+            <p>{section}</p>
+            <br />
+          </>
+        );
+      return content;
+    });
   }, [teamProfileSection]);
 
   return (
     <div id="teamProfile">
       <h2 className="sectionName">Team Profile</h2>
+      <div className="teamMembers">{membersInfo}</div>
       <div className="teamProfileMain">
         <div className="teamProfileButtons">{buttons}</div>
         <div className="teamProfileText">{text}</div>

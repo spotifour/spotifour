@@ -8,6 +8,23 @@
   height: 400px;
 }
 
+.teamMembers {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.memberImg {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.memberName {
+  font-family: "Montserrat", sans-serif;
+}
+
 .teamProfileButtons {
   flex: 1.5;
   display: flex;
