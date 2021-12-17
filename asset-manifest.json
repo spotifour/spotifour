@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spotifour/static/css/main.b716e2c8.chunk.css",
+    "main.css": "/spotifour/static/css/main.920ceb60.chunk.css",
     "main.js": "/spotifour/static/js/main.1711c880.chunk.js",
     "main.js.map": "/spotifour/static/js/main.1711c880.chunk.js.map",
     "runtime-main.js": "/spotifour/static/js/runtime-main.b05aa4c7.js",
@@ -12,7 +12,7 @@
     "static/js/3.cecf5e8f.chunk.js.map": "/spotifour/static/js/3.cecf5e8f.chunk.js.map",
     "index.html": "/spotifour/index.html",
     "static/css/2.99d03d7f.chunk.css.map": "/spotifour/static/css/2.99d03d7f.chunk.css.map",
-    "static/css/main.b716e2c8.chunk.css.map": "/spotifour/static/css/main.b716e2c8.chunk.css.map",
+    "static/css/main.920ceb60.chunk.css.map": "/spotifour/static/css/main.920ceb60.chunk.css.map",
     "static/js/2.4658f148.chunk.js.LICENSE.txt": "/spotifour/static/js/2.4658f148.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/spotifour/static/media/slick.c94f7671.ttf"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b05aa4c7.js",
     "static/css/2.99d03d7f.chunk.css",
     "static/js/2.4658f148.chunk.js",
-    "static/css/main.b716e2c8.chunk.css",
+    "static/css/main.920ceb60.chunk.css",
     "static/js/main.1711c880.chunk.js"
   ]
 }
