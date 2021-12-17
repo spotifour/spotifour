@@ -7,6 +7,7 @@ import ProjectIdeas from './ProjectIdeas/ProjectIdeas';
 import TeamProfile from './TeamProfile/TeamProfile';
 import Tools from './Tools/Tools';
 import Feedback from './Feedback/Feedback';
+import References from './References/References';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ITTechnologies />
       <ProjectIdeas />
       <Feedback />
+      <References />
       <Footer />
     </div>
   );

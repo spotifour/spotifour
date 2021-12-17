@@ -10,15 +10,15 @@ export const teamMembers = [
   },
   {
     name: "Le Trinh Quoc Huynh",
-    image: "QuocHuynh.jpg",
+    image: "QuocHuynh.jpeg",
   },
   {
     name: "Vu Tuan Linh",
-    image: "TuanLinh.jpg",
+    image: "TuanLinh.png",
   },
   {
     name: "Dau Hoang Minh",
-    image: "HoangMinh.jpg",
+    image: "HoangMinh.jpeg",
   },
 ];
 
@@ -325,12 +325,18 @@ export const projectInfo = {
   motivation:
     "According to soundofsleep.com, background sounds that usually contain white noise have been shown to have promising results in improving behaviours and productivity. To be specific, it helps us enhance memories, deepens our meditation, sleep quality as well as improves concentration. MinS is developed to bring people a better quality of life with its pristine soundtracks and beautiful photographs. In addition, this website also provides Pomodoro – a study tracking tool that people can use while studying and Spotify integrations if they want to enjoy some of their favourite songs. Anyone can access the website right on their phones, tablets, or laptops, and it will be available on famous browsers like Google Chrome, Safari, Microsoft Edge, and Firefox.",
   description: [
-    "In general, MinS is a simple and easy-to-use website. When we first open up, the whole screen will be covered in black, and the logo will slowly appear. After that, it displays, under the logo, “Welcome to Mix in Sounds”, followed by a short description of the website. Users will then be asked to choose between four locations - Chilling by the Sea, Exploring the Forest, Relaxing in a Coffee Shop, and Working at the office – which is shown in turn. The website will play a demo sound of that place along with beautiful scenery in the background interface for each location.  After choosing the desired location, the website will relocate them to a new page, and more soundtracks will be provided. To be more specific, inside the forest, we can hear the light wind, vibrating trees, insects buzz, campfire, as well as the sounds of animals like birds, snakes, and monkeys. When choosing the seaside option, we can hear waves crashing on the shore, sand crunching underfoot, the sound of seagulls and other coastal birds. If users choose to go to a bustling area like a coffee shop, there will be the sound of people chatting, the barista who prepares the beverage for us, the coffee cup, and the drinking sound. Last but not least is at the office where users can hear the sound of discussion, people moving around, writing, and studying. There are also different kinds of weather used in all locations like rainy, windy, sunny, and snowy. It is crucial that all of the sounds are high quality to provide the best user experience.",
+    "FUNCTIONALITY",
+    "In general, MinS is a simple and easy-to-use website. When we first open up, the whole screen will be covered in black, and the logo will slowly appear. After that, it displays, under the logo, “Welcome to Mix in Sounds”, followed by a short description of the website. Users will then be asked to choose between four locations - Chilling by the Sea, Exploring the Forest, Relaxing in a Coffee Shop, and Working at the office – which is shown in turn. The website will play a demo sound of that place along with beautiful scenery in the background interface for each location.",
+    "After choosing the desired location, the website will relocate them to a new page, and more soundtracks will be provided. To be more specific, inside the forest, we can hear the light wind, vibrating trees, insects buzz, campfire, as well as the sounds of animals like birds, snakes, and monkeys. When choosing the seaside option, we can hear waves crashing on the shore, sand crunching underfoot, the sound of seagulls and other coastal birds. If users choose to go to a bustling area like a coffee shop, there will be the sound of people chatting, the barista who prepares the beverage for us, the coffee cup, and the drinking sound. Last but not least is at the office where users can hear the sound of discussion, people moving around, writing, and studying.",
+    "There are also different kinds of weather used in all locations which are rainy, windy, sunny, and snowy. When users first come to a location, there will be a default set of sounds chosen by the host to bring a light touch to that place. They can then modify and choose the desired soundtracks to enjoy. It is important that all of the sounds must be of high quality to provide the best user experience.",
+    "LAYOUT & DESIGN",
     "In terms of the layout, the header, where the website logo and different locations are located, will lie on top of the window, and users can navigate to other places by clicking on them. The set of sounds will be on the right side of the screen. There will be a control bar for each sound for users to adjust. They can choose the sounds they desire by clicking on the play button and dragging the circle dot to the right for higher volume and the other for lowering. The play button will then be changed into the pause symbol in case users want to stop the sound.",
     "Underneath the sounds control panel, there are four circles with an icon inside, representing the weather mentioned before. Users can hold their mouse on that button, drag it up or down to adjust the volume.",
+    "OTHER FEATURES",
     "For music lovers, the Spotify player is located on the left side of the window and has some default music chosen by the host. If the users have a premium Spotify account, they can also log in and enjoy the entire length of the songs instead of the 30s each. The sound adjusting bar and playback & skip button are also provided for the users for better adjustment.",
     "Pomodoro is one of the trending education tools to help us keep track of our studies time and work effectively. It will be included on the website and displayed on top of the Spotify player. The default option is 25 minutes of working time, followed by 5 minutes of break. Users could also adjust the desired time by clicking on the “EDIT” button. After that, the interface of the Pomodoro will change, and there will be two arrows up-down for us to choose the desired working time.",
     "If the users are satisfied with the website, they can also support us by clicking on the “Support us” button on the bottom left of the interface. They will then be taken to a page where users can find more information about the creators and send a small donation. On the right side of the donation box is some extra information about the website, including the creators, the releasing date, and our slogan.",
+    "ILLUSTRATIONS",
     "The colour and size of every button will change slightly if the users hover their cursor on them. In addition, if they hover on each button, there will be a comment pop-up to provide some additional information about that button. The colour and font shown on the website will depend on the background pictures of different locations. Moreover, we would like to use not too bright colours for the website along with stylish and exquisite fonts.",
   ],
   toolsAndTechnologies:
@@ -382,5 +388,170 @@ export const MemberFeedbacks = [
       "In this assignment, I believe all four team members did exceptionally well. Linh was a wizard when it came to creating websites. He was mainly responsible for developing our GitHub Website. The final version of the website was well–designed, containing all the information in our report, which demonstrated his ability in using HTML, CSS, and especially JavaScript. Hoang was very energetic when working on our group project; he did not hesitate to share his thoughts with other members. He was also the one who came up with our innovative project idea (MinS) and was able to persuade others to support it. Huynh had a thorough understanding of different IT aspects like Arduino, Raspberry Pi, … When we proposed a new idea, he always pinpointed things like its difficulties, how to make that, what we need and what we should notice. Those contributions made our project idea more detailed, and we could identify exactly what to do. In terms of myself, I believe I was also enthusiastic in sharing my ideas during our group discussion, and I compiled other members’ work to make a report that satisfies the assignment requirements.",
       "In our next project, I believe we should prepare more before having a consultation meeting with the lecture. We should first write down the questions we want to ask, as well as create several illustrations to help the teacher understand our project ideas clearly. I should also ask about the team links for the meeting when contacting the lectures for an appointment so that we do not waste time like the previous session.",
     ],
+  },
+];
+
+export const refs = [
+  { name: "NERIS Analytics Limited. “Tuan Linh - Assertive Advocate (INFJ-A) | 16Personalities”. 16personalities.", link: "https://www.16personalities.com/profiles/b6df734404ec6", date: "(accessed Nov.12, 2021)",},
+  { name: "“What's Your Learning Style? The Results”. educationplanner.org.", link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?ev ent=results&A=6&V=7&T=7", date: "(accessed Nov.12, 2021)",},
+  { name: "Truity. “The Big Five Personality Test | Truity”. truity.com", link: "https://www.truity.com/test-results/bigfive/17315/23212383", date: "(accessed Nov.12, 2021)",},
+  { name: "NERIS Analytics Limited. “Hoang Minh - Turbulent Consul (ESFJ-T) | 16Personalities”. 16personalities.", link: "https://www.16personalities.com/profiles/62c09c12a56a5", date: "(accessed Nov.6, 2021)",},
+  { name: "“What's Your Learning Style? The Results”. educationplanner.org.", link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=5&V=10&T=5", date: "(accessed Nov. 6, 2021)",},
+  { name: "Emerald Works. “How Creative Are You?”. mindtools.com", link: "https://www.mindtools.com/pages/article/creativity-quiz.htm", date: "(accessed Nov. 6, 2021)",},
+  { name: "NERIS Analytics Limited. “Campaigner Personality.” 16personalities.com.", link: "https://www.16personalities.com/enfppersonality", date: "(accessed Nov. 6, 2021)",},
+  { name: "“What's Your Learning Style? The Results.” educationplanner.org.", link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=3&V=10&T=7", date: "(accessed Nov. 6, 2021)",},
+  { name: "Adobe Create. “The Visionary, Imaging the impossible.” mycreativetype.com.", link: "https://mycreativetype.com/type/visionary/", date: "(accessed Nov. 6, 2021)",},
+  { name: "NERIS Analytics Limited. “Conclusion | Commander (ENTJ) Personality | 16 Personalities”. 16personalities.com.", link: "https://www.16personalities.com/entj-conclusion", date: "(accessed Nov. 5, 2021)",},
+  { name: "“What's Your Learning Style? The Results”. educationplanner.org", link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=5&V=5&T=10", date: "(accessed Nov. 5, 2021)",},
+  { name: "AULIVE. “Test my creativity”", link: "http://www.testmycreativity.com/", date: "(accessed Nov. 5, 2021)",},
+  { name: `S. Aggarwal, "Modern web-development using reactjs," International Journal of Recent Research Aspects, vol. 5, no. 1, pp. 133-137, 2018.`, link: "", date: "",},
+  { name: `J. D. Blischak, E. R. Davenport, and G. Wilson, "A quick introduction to version control with Git and GitHub," PLoS computational biology, vol. 12, no. 1, p. e1004668, 2016.`, link: "", date: "",},
+  { name: "MageXo. “Magento - a global e-commerce leader.” MageXo.cz.", link: "https://www.magexo.cz/en/magento/", date: "(accessed Dec. 9, 2021)",},
+  { name: "Wikipedia. “Web development.” Wikipedia.org", link: "https://en.wikipedia.org/wiki/Web_development", date: "(accessed Dec. 9, 2021)",},
+  { name: "D. Irascu. “3-D Illustrations - The Next Web Design Trend in 2021.” Mobiteam.de ", link: "https://mobiteam.de/en/3-d-illustrations-web-design-trend-2021/", date: "(accessed Dec. 9, 2021)",},
+  { 
+    name: "C. Borodescu. “The AI of Personalized Ecommerce Product Recommendations.” MorphL.", 
+    link: "https://morphl.io/blog/ecommerce-ai-recommender-system/", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: "I. Pandey. “Web 3.0 is About Ownership and Self-Sovereignty.” Hacker Noon ", 
+    link: "https://hackernoon.com/web-30-is-about-ownership-and-self-sovereignty", 
+    date: "(accessed Dec. 9, 2021).",
+  },
+  { 
+    name: "N. Carlson. “Mobile Versus Desktop.” Business Insider ", 
+    link: "https://www.businessinsider.com/mobile-versus-desktop", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: `J. N. Kok, E. J. Boers, W. A. Kosters, P. Van der Putten, and M. Poel, "Artificial intelligence: definition, trends, techniques, and cases," Artificial intelligence, vol. 1, pp. 270-299, 2009.`, 
+    link: "", 
+    date: "",
+  },
+  { 
+    name: "E. Burns. “What Is Machine Learning and Why Is It Important?” SearchEnterpriseAI.", 
+    link: "https://searchenterpriseai.techtarget.com/definition/machine-learning-ML", 
+    date: "(accessed Dec. 7,2021)",
+  },
+  { 
+    name: `F.-Y. Wang et al., "Where does AlphaGo go: From church-turing thesis to AlphaGo thesis and beyond," IEEE/CAA Journal of Automatica Sinica, vol. 3, no. 2, pp. 113-120, 2016.`, 
+    link: "", 
+    date: "",
+  },
+  { 
+    name: "Priyadarshini College Of Engineering. “Why you should become an AI professional.” Priyadarshini College of Engineering | PCE Nagpur ", 
+    link: "https://www.pcenagpur.edu.in/artificial-intelligence", 
+    date: "(accessed Dec. 7,2021)",
+  },
+  { 
+    name: "Verdict. “AI robot helps discover ingredient for anti-malarial drug.” Pharmaceutical Technology ", 
+    link: "https://www.pharmaceutical-technology.com/comment/ai-robot-helps-discover-ingredient-anti-malarial-drug/", 
+    date: "(accessed Dec. 7,2021)",
+  },
+  { 
+    name: `W. L. Chang and N. Grady, "Nist big data interoperability framework: Volume 1, big data definitions," 2015.`, 
+    link: "", 
+    date: "",
+  },
+  { 
+    name: `A. Bechmann and G. C. Bowker, "Unsupervised by any other name: Hidden layers of knowledge production in artificial intelligence on social media," Big Data & Society, vol. 6, no. 1, p. 2053951718819569, 2019.`, 
+    link: "", 
+    date: "",
+  },
+  { 
+    name: `J. Torous, J. Nicholas, M. E. Larsen, J. Firth, and H. Christensen, "Clinical review of user engagement with mental health smartphone apps: evidence, theory and improvements," Evidence-based mental health, vol. 21, no. 3, pp. 116-119, 2018. `, 
+    link: "", 
+    date: "",
+  },
+  { 
+    name: "N. Kitroeff. “Robots could replace 1.7 million American truckers in the next decade.” Los Angeles Times.", 
+    link: "https://www.latimes.com/projects/la-fi-automated-trucks-labor-20160924/", 
+    date: "(accessed Dec. 7,2021)",
+  },
+  { 
+    name: `C. B. Frey and M. A. Osborne, "The future of employment: How susceptible are jobs to computerisation?," Technological forecasting & social change, vol. 114, no. January, pp. 254-280, 2017.`, 
+    link: "", 
+    date: "",
+  },
+  { 
+    name: "S. Hollister. “iPhone X: How Face ID works.” CNET", 
+    link: "https://www.cnet.com/tech/mobile/apple-face-id-truedepth-how-it-works/", 
+    date: "(accessed Dec. 7,2021)",
+  },
+  { 
+    name: "Neal Davis. “9 Common Uses of Cloud Computing.” Digitalcloud.training. ", 
+    link: "https://digitalcloud.training/9-common-uses-of-cloud-computing/", 
+    date: "(accessed Dec. 2, 2021)",
+  },
+  { 
+    name: "Dave Bartoletti. “Predictions 2021: Cloud Computing Powers Pandemic Recovery.” forrester.com", 
+    link: "https://www.forrester.com/blogs/predictions-2021-cloud-computing-powers-pandemic-recovery/", 
+    date: "(accessed Dec. 2, 2021)",
+  },
+  { 
+    name: "“Serverless computing.” wikipedia.org", 
+    link: "https://en.wikipedia.org/wiki/Serverless_computing", 
+    date: "(accessed Dec. 2, 2021)",
+  },
+  { 
+    name: "Ajay Ohri. “Impact of Cloud Computing: A Simple Overview In 4 Points.” jigsawacademy.com", 
+    link: "https://www.jigsawacademy.com/blogs/cloud-computing/impact-of-cloud-computing", 
+    date: "(accessed Dec. 2, 2021)",
+  },
+  { 
+    name: "“How will Cloud Computing Affect IT Jobs?.” collabera.com", 
+    link: "https://www.collabera.com/find-a-job/career-resources/how-will-cloud-computing-affect-it-jobs/", 
+    date: "(accessed Dec. 2, 2021)",
+  },
+  { 
+    name: "SAE International. “SAE International Releases Updated Visual Chart for Its “Levels of Driving Automation” Standard for Self-Driving Vehicles”. SAE International. ", 
+    link: "https://www.sae.org/news/press-room/2018/12/sae-international-releases-updated-visual-chart-for-its-%E2%80%9Clevels-of-driving-automation%E2%80%9D-standard-for-self-driving-vehicle", 
+    date: "(accessed Dec. 8, 2021)",
+  },
+  { 
+    name: "Nhã Nam. “Xe không người lái: cơ hội nào cho Việt Nam?”. Báo Đầu tư. ", 
+    link: "https://baodautu.vn/xe-khong-nguoi-lai-co-hoi-nao-cho-viet-nam-d56702.html", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: "Đoàn Hiếu. “Cuộc đua sản xuất xe tự lái”. Báo Nhân Dân. ", 
+    link: "https://nhandan.vn/tin-tuc-the-gioi/cuoc-dua-san-xuat-xe-tu-lai-630649", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: "Tùng Linh. “Công nghệ xe tự lái của Việt Nam đã phát triển đến đâu?”. Báo Tiền Phong.", 
+    link: "https://tienphong.vn/cong-nghe-xe-tu-lai-cua-viet-nam-da-phat-trien-den-dau-post1370279.tpo", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: "Sound of sleep. “White, Pink, and Brown Noise: What’s the difference?.” soundofsleep.com. ", 
+    link: "https://www.soundofsleep.com/white-pink-brown-noise-whats-difference/", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: "React. “React - A javascript library for building user interfaces.” reactjs.org", 
+    link: "https://reactjs.org/", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: `myNoise. "Focus at Work • Relax at Home • Sleep at Night." mynoise.net.`, 
+    link: "https://mynoise.net/", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: "Unsplash. “The internet’s source of freely-usable images.” unsplash.com", 
+    link: "https://unsplash.com/", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: "Firebase. “Firebase helps you build and run successful apps.” firebase.google.com. ", 
+    link: "https://firebase.google.com/", 
+    date: "(accessed Dec. 9, 2021)",
+  },
+  { 
+    name: "Rest API Tutorial. “What is Rest.” restfulapi.net.", 
+    link: "https://restfulapi.net/", 
+    date: "(accessed Dec. 9, 2021)",
   },
 ];
