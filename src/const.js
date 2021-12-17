@@ -64,7 +64,7 @@ export const teamProfileInfo = {
 
 export const toolsComment = {
   para1:
-    "The primary technology used to create our website is ReactJS, which most of our team members are unfamiliar with. Since only Tuan Linh has significant experience with this technology, he is responsible for managing the code's repository with Git and GitHub. Other members wrote plain HTML and CSS code in their local machine and sent their code to Tuan Linh so he could modify, add them to the React code and push it to the remote repository on Github.",
+    `The primary technology used to create our website is ReactJS, which most of our team members are unfamiliar with. Since only Tuan Linh has significant experience with this technology, he is responsible for managing the code's repository with Git and GitHub. Other members uploaded the design and images for the website and wrote plain HTML and CSS code in their local machine and then push them to a separate repository, then Tuan Linh will modify and add them to the React code and push it to the main repository on Github. We were instructed to use Atom as a text editor in tutorial sessions. However, when some of the team members synced their Github accounts to Atom, some errors occurred and prevented them from cloning our repository. As a result, we had to use VSCode and GitBash to commit our work to the repository. Some of us also face problems when using the command "git push" on Git Bash. Their usernames appeared as "BuildTools" on the commit history but not their actual ones.`,
   para2:
     "Because this project is not complex, we only use one main branch for our code for simplicity.  When finishing certain features, we can commit and push directly to the remote repository on our GitHub page. Git and Github have fastened and improved our process of developing, maintaining and deploying our website tremendously. While Git allows us to see the changes when comparing the code at the current moment with the last commit, GitHub helps store the code on the Internet and host our website.",
 };
@@ -392,166 +392,234 @@ export const MemberFeedbacks = [
 ];
 
 export const refs = [
-  { name: "NERIS Analytics Limited. “Tuan Linh - Assertive Advocate (INFJ-A) | 16Personalities”. 16personalities.", link: "https://www.16personalities.com/profiles/b6df734404ec6", date: "(accessed Nov.12, 2021)",},
-  { name: "“What's Your Learning Style? The Results”. educationplanner.org.", link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?ev ent=results&A=6&V=7&T=7", date: "(accessed Nov.12, 2021)",},
-  { name: "Truity. “The Big Five Personality Test | Truity”. truity.com", link: "https://www.truity.com/test-results/bigfive/17315/23212383", date: "(accessed Nov.12, 2021)",},
-  { name: "NERIS Analytics Limited. “Hoang Minh - Turbulent Consul (ESFJ-T) | 16Personalities”. 16personalities.", link: "https://www.16personalities.com/profiles/62c09c12a56a5", date: "(accessed Nov.6, 2021)",},
-  { name: "“What's Your Learning Style? The Results”. educationplanner.org.", link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=5&V=10&T=5", date: "(accessed Nov. 6, 2021)",},
-  { name: "Emerald Works. “How Creative Are You?”. mindtools.com", link: "https://www.mindtools.com/pages/article/creativity-quiz.htm", date: "(accessed Nov. 6, 2021)",},
-  { name: "NERIS Analytics Limited. “Campaigner Personality.” 16personalities.com.", link: "https://www.16personalities.com/enfppersonality", date: "(accessed Nov. 6, 2021)",},
-  { name: "“What's Your Learning Style? The Results.” educationplanner.org.", link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=3&V=10&T=7", date: "(accessed Nov. 6, 2021)",},
-  { name: "Adobe Create. “The Visionary, Imaging the impossible.” mycreativetype.com.", link: "https://mycreativetype.com/type/visionary/", date: "(accessed Nov. 6, 2021)",},
-  { name: "NERIS Analytics Limited. “Conclusion | Commander (ENTJ) Personality | 16 Personalities”. 16personalities.com.", link: "https://www.16personalities.com/entj-conclusion", date: "(accessed Nov. 5, 2021)",},
-  { name: "“What's Your Learning Style? The Results”. educationplanner.org", link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=5&V=5&T=10", date: "(accessed Nov. 5, 2021)",},
-  { name: "AULIVE. “Test my creativity”", link: "http://www.testmycreativity.com/", date: "(accessed Nov. 5, 2021)",},
-  { name: `S. Aggarwal, "Modern web-development using reactjs," International Journal of Recent Research Aspects, vol. 5, no. 1, pp. 133-137, 2018.`, link: "", date: "",},
-  { name: `J. D. Blischak, E. R. Davenport, and G. Wilson, "A quick introduction to version control with Git and GitHub," PLoS computational biology, vol. 12, no. 1, p. e1004668, 2016.`, link: "", date: "",},
-  { name: "MageXo. “Magento - a global e-commerce leader.” MageXo.cz.", link: "https://www.magexo.cz/en/magento/", date: "(accessed Dec. 9, 2021)",},
-  { name: "Wikipedia. “Web development.” Wikipedia.org", link: "https://en.wikipedia.org/wiki/Web_development", date: "(accessed Dec. 9, 2021)",},
-  { name: "D. Irascu. “3-D Illustrations - The Next Web Design Trend in 2021.” Mobiteam.de ", link: "https://mobiteam.de/en/3-d-illustrations-web-design-trend-2021/", date: "(accessed Dec. 9, 2021)",},
-  { 
-    name: "C. Borodescu. “The AI of Personalized Ecommerce Product Recommendations.” MorphL.", 
-    link: "https://morphl.io/blog/ecommerce-ai-recommender-system/", 
+  {
+    name: "NERIS Analytics Limited. “Tuan Linh - Assertive Advocate (INFJ-A) | 16Personalities”. 16personalities.",
+    link: "https://www.16personalities.com/profiles/b6df734404ec6",
+    date: "(accessed Nov.12, 2021)",
+  },
+  {
+    name: "“What's Your Learning Style? The Results”. educationplanner.org.",
+    link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?ev ent=results&A=6&V=7&T=7",
+    date: "(accessed Nov.12, 2021)",
+  },
+  {
+    name: "Truity. “The Big Five Personality Test | Truity”. truity.com",
+    link: "https://www.truity.com/test-results/bigfive/17315/23212383",
+    date: "(accessed Nov.12, 2021)",
+  },
+  {
+    name: "NERIS Analytics Limited. “Hoang Minh - Turbulent Consul (ESFJ-T) | 16Personalities”. 16personalities.",
+    link: "https://www.16personalities.com/profiles/62c09c12a56a5",
+    date: "(accessed Nov.6, 2021)",
+  },
+  {
+    name: "“What's Your Learning Style? The Results”. educationplanner.org.",
+    link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=5&V=10&T=5",
+    date: "(accessed Nov. 6, 2021)",
+  },
+  {
+    name: "Emerald Works. “How Creative Are You?”. mindtools.com",
+    link: "https://www.mindtools.com/pages/article/creativity-quiz.htm",
+    date: "(accessed Nov. 6, 2021)",
+  },
+  {
+    name: "NERIS Analytics Limited. “Campaigner Personality.” 16personalities.com.",
+    link: "https://www.16personalities.com/enfppersonality",
+    date: "(accessed Nov. 6, 2021)",
+  },
+  {
+    name: "“What's Your Learning Style? The Results.” educationplanner.org.",
+    link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=3&V=10&T=7",
+    date: "(accessed Nov. 6, 2021)",
+  },
+  {
+    name: "Adobe Create. “The Visionary, Imaging the impossible.” mycreativetype.com.",
+    link: "https://mycreativetype.com/type/visionary/",
+    date: "(accessed Nov. 6, 2021)",
+  },
+  {
+    name: "NERIS Analytics Limited. “Conclusion | Commander (ENTJ) Personality | 16 Personalities”. 16personalities.com.",
+    link: "https://www.16personalities.com/entj-conclusion",
+    date: "(accessed Nov. 5, 2021)",
+  },
+  {
+    name: "“What's Your Learning Style? The Results”. educationplanner.org",
+    link: "http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=5&V=5&T=10",
+    date: "(accessed Nov. 5, 2021)",
+  },
+  {
+    name: "AULIVE. “Test my creativity”",
+    link: "http://www.testmycreativity.com/",
+    date: "(accessed Nov. 5, 2021)",
+  },
+  {
+    name: `S. Aggarwal, "Modern web-development using reactjs," International Journal of Recent Research Aspects, vol. 5, no. 1, pp. 133-137, 2018.`,
+    link: "",
+    date: "",
+  },
+  {
+    name: `J. D. Blischak, E. R. Davenport, and G. Wilson, "A quick introduction to version control with Git and GitHub," PLoS computational biology, vol. 12, no. 1, p. e1004668, 2016.`,
+    link: "",
+    date: "",
+  },
+  {
+    name: "MageXo. “Magento - a global e-commerce leader.” MageXo.cz.",
+    link: "https://www.magexo.cz/en/magento/",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: "I. Pandey. “Web 3.0 is About Ownership and Self-Sovereignty.” Hacker Noon ", 
-    link: "https://hackernoon.com/web-30-is-about-ownership-and-self-sovereignty", 
+  {
+    name: "Wikipedia. “Web development.” Wikipedia.org",
+    link: "https://en.wikipedia.org/wiki/Web_development",
+    date: "(accessed Dec. 9, 2021)",
+  },
+  {
+    name: "D. Irascu. “3-D Illustrations - The Next Web Design Trend in 2021.” Mobiteam.de ",
+    link: "https://mobiteam.de/en/3-d-illustrations-web-design-trend-2021/",
+    date: "(accessed Dec. 9, 2021)",
+  },
+  {
+    name: "C. Borodescu. “The AI of Personalized Ecommerce Product Recommendations.” MorphL.",
+    link: "https://morphl.io/blog/ecommerce-ai-recommender-system/",
+    date: "(accessed Dec. 9, 2021)",
+  },
+  {
+    name: "I. Pandey. “Web 3.0 is About Ownership and Self-Sovereignty.” Hacker Noon ",
+    link: "https://hackernoon.com/web-30-is-about-ownership-and-self-sovereignty",
     date: "(accessed Dec. 9, 2021).",
   },
-  { 
-    name: "N. Carlson. “Mobile Versus Desktop.” Business Insider ", 
-    link: "https://www.businessinsider.com/mobile-versus-desktop", 
+  {
+    name: "N. Carlson. “Mobile Versus Desktop.” Business Insider ",
+    link: "https://www.businessinsider.com/mobile-versus-desktop",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: `J. N. Kok, E. J. Boers, W. A. Kosters, P. Van der Putten, and M. Poel, "Artificial intelligence: definition, trends, techniques, and cases," Artificial intelligence, vol. 1, pp. 270-299, 2009.`, 
-    link: "", 
+  {
+    name: `J. N. Kok, E. J. Boers, W. A. Kosters, P. Van der Putten, and M. Poel, "Artificial intelligence: definition, trends, techniques, and cases," Artificial intelligence, vol. 1, pp. 270-299, 2009.`,
+    link: "",
     date: "",
   },
-  { 
-    name: "E. Burns. “What Is Machine Learning and Why Is It Important?” SearchEnterpriseAI.", 
-    link: "https://searchenterpriseai.techtarget.com/definition/machine-learning-ML", 
+  {
+    name: "E. Burns. “What Is Machine Learning and Why Is It Important?” SearchEnterpriseAI.",
+    link: "https://searchenterpriseai.techtarget.com/definition/machine-learning-ML",
     date: "(accessed Dec. 7,2021)",
   },
-  { 
-    name: `F.-Y. Wang et al., "Where does AlphaGo go: From church-turing thesis to AlphaGo thesis and beyond," IEEE/CAA Journal of Automatica Sinica, vol. 3, no. 2, pp. 113-120, 2016.`, 
-    link: "", 
+  {
+    name: `F.-Y. Wang et al., "Where does AlphaGo go: From church-turing thesis to AlphaGo thesis and beyond," IEEE/CAA Journal of Automatica Sinica, vol. 3, no. 2, pp. 113-120, 2016.`,
+    link: "",
     date: "",
   },
-  { 
-    name: "Priyadarshini College Of Engineering. “Why you should become an AI professional.” Priyadarshini College of Engineering | PCE Nagpur ", 
-    link: "https://www.pcenagpur.edu.in/artificial-intelligence", 
+  {
+    name: "Priyadarshini College Of Engineering. “Why you should become an AI professional.” Priyadarshini College of Engineering | PCE Nagpur ",
+    link: "https://www.pcenagpur.edu.in/artificial-intelligence",
     date: "(accessed Dec. 7,2021)",
   },
-  { 
-    name: "Verdict. “AI robot helps discover ingredient for anti-malarial drug.” Pharmaceutical Technology ", 
-    link: "https://www.pharmaceutical-technology.com/comment/ai-robot-helps-discover-ingredient-anti-malarial-drug/", 
+  {
+    name: "Verdict. “AI robot helps discover ingredient for anti-malarial drug.” Pharmaceutical Technology ",
+    link: "https://www.pharmaceutical-technology.com/comment/ai-robot-helps-discover-ingredient-anti-malarial-drug/",
     date: "(accessed Dec. 7,2021)",
   },
-  { 
-    name: `W. L. Chang and N. Grady, "Nist big data interoperability framework: Volume 1, big data definitions," 2015.`, 
-    link: "", 
+  {
+    name: `W. L. Chang and N. Grady, "Nist big data interoperability framework: Volume 1, big data definitions," 2015.`,
+    link: "",
     date: "",
   },
-  { 
-    name: `A. Bechmann and G. C. Bowker, "Unsupervised by any other name: Hidden layers of knowledge production in artificial intelligence on social media," Big Data & Society, vol. 6, no. 1, p. 2053951718819569, 2019.`, 
-    link: "", 
+  {
+    name: `A. Bechmann and G. C. Bowker, "Unsupervised by any other name: Hidden layers of knowledge production in artificial intelligence on social media," Big Data & Society, vol. 6, no. 1, p. 2053951718819569, 2019.`,
+    link: "",
     date: "",
   },
-  { 
-    name: `J. Torous, J. Nicholas, M. E. Larsen, J. Firth, and H. Christensen, "Clinical review of user engagement with mental health smartphone apps: evidence, theory and improvements," Evidence-based mental health, vol. 21, no. 3, pp. 116-119, 2018. `, 
-    link: "", 
+  {
+    name: `J. Torous, J. Nicholas, M. E. Larsen, J. Firth, and H. Christensen, "Clinical review of user engagement with mental health smartphone apps: evidence, theory and improvements," Evidence-based mental health, vol. 21, no. 3, pp. 116-119, 2018. `,
+    link: "",
     date: "",
   },
-  { 
-    name: "N. Kitroeff. “Robots could replace 1.7 million American truckers in the next decade.” Los Angeles Times.", 
-    link: "https://www.latimes.com/projects/la-fi-automated-trucks-labor-20160924/", 
+  {
+    name: "N. Kitroeff. “Robots could replace 1.7 million American truckers in the next decade.” Los Angeles Times.",
+    link: "https://www.latimes.com/projects/la-fi-automated-trucks-labor-20160924/",
     date: "(accessed Dec. 7,2021)",
   },
-  { 
-    name: `C. B. Frey and M. A. Osborne, "The future of employment: How susceptible are jobs to computerisation?," Technological forecasting & social change, vol. 114, no. January, pp. 254-280, 2017.`, 
-    link: "", 
+  {
+    name: `C. B. Frey and M. A. Osborne, "The future of employment: How susceptible are jobs to computerisation?," Technological forecasting & social change, vol. 114, no. January, pp. 254-280, 2017.`,
+    link: "",
     date: "",
   },
-  { 
-    name: "S. Hollister. “iPhone X: How Face ID works.” CNET", 
-    link: "https://www.cnet.com/tech/mobile/apple-face-id-truedepth-how-it-works/", 
+  {
+    name: "S. Hollister. “iPhone X: How Face ID works.” CNET",
+    link: "https://www.cnet.com/tech/mobile/apple-face-id-truedepth-how-it-works/",
     date: "(accessed Dec. 7,2021)",
   },
-  { 
-    name: "Neal Davis. “9 Common Uses of Cloud Computing.” Digitalcloud.training. ", 
-    link: "https://digitalcloud.training/9-common-uses-of-cloud-computing/", 
+  {
+    name: "Neal Davis. “9 Common Uses of Cloud Computing.” Digitalcloud.training. ",
+    link: "https://digitalcloud.training/9-common-uses-of-cloud-computing/",
     date: "(accessed Dec. 2, 2021)",
   },
-  { 
-    name: "Dave Bartoletti. “Predictions 2021: Cloud Computing Powers Pandemic Recovery.” forrester.com", 
-    link: "https://www.forrester.com/blogs/predictions-2021-cloud-computing-powers-pandemic-recovery/", 
+  {
+    name: "Dave Bartoletti. “Predictions 2021: Cloud Computing Powers Pandemic Recovery.” forrester.com",
+    link: "https://www.forrester.com/blogs/predictions-2021-cloud-computing-powers-pandemic-recovery/",
     date: "(accessed Dec. 2, 2021)",
   },
-  { 
-    name: "“Serverless computing.” wikipedia.org", 
-    link: "https://en.wikipedia.org/wiki/Serverless_computing", 
+  {
+    name: "“Serverless computing.” wikipedia.org",
+    link: "https://en.wikipedia.org/wiki/Serverless_computing",
     date: "(accessed Dec. 2, 2021)",
   },
-  { 
-    name: "Ajay Ohri. “Impact of Cloud Computing: A Simple Overview In 4 Points.” jigsawacademy.com", 
-    link: "https://www.jigsawacademy.com/blogs/cloud-computing/impact-of-cloud-computing", 
+  {
+    name: "Ajay Ohri. “Impact of Cloud Computing: A Simple Overview In 4 Points.” jigsawacademy.com",
+    link: "https://www.jigsawacademy.com/blogs/cloud-computing/impact-of-cloud-computing",
     date: "(accessed Dec. 2, 2021)",
   },
-  { 
-    name: "“How will Cloud Computing Affect IT Jobs?.” collabera.com", 
-    link: "https://www.collabera.com/find-a-job/career-resources/how-will-cloud-computing-affect-it-jobs/", 
+  {
+    name: "“How will Cloud Computing Affect IT Jobs?.” collabera.com",
+    link: "https://www.collabera.com/find-a-job/career-resources/how-will-cloud-computing-affect-it-jobs/",
     date: "(accessed Dec. 2, 2021)",
   },
-  { 
-    name: "SAE International. “SAE International Releases Updated Visual Chart for Its “Levels of Driving Automation” Standard for Self-Driving Vehicles”. SAE International. ", 
-    link: "https://www.sae.org/news/press-room/2018/12/sae-international-releases-updated-visual-chart-for-its-%E2%80%9Clevels-of-driving-automation%E2%80%9D-standard-for-self-driving-vehicle", 
+  {
+    name: "SAE International. “SAE International Releases Updated Visual Chart for Its “Levels of Driving Automation” Standard for Self-Driving Vehicles”. SAE International. ",
+    link: "https://www.sae.org/news/press-room/2018/12/sae-international-releases-updated-visual-chart-for-its-%E2%80%9Clevels-of-driving-automation%E2%80%9D-standard-for-self-driving-vehicle",
     date: "(accessed Dec. 8, 2021)",
   },
-  { 
-    name: "Nhã Nam. “Xe không người lái: cơ hội nào cho Việt Nam?”. Báo Đầu tư. ", 
-    link: "https://baodautu.vn/xe-khong-nguoi-lai-co-hoi-nao-cho-viet-nam-d56702.html", 
+  {
+    name: "Nhã Nam. “Xe không người lái: cơ hội nào cho Việt Nam?”. Báo Đầu tư. ",
+    link: "https://baodautu.vn/xe-khong-nguoi-lai-co-hoi-nao-cho-viet-nam-d56702.html",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: "Đoàn Hiếu. “Cuộc đua sản xuất xe tự lái”. Báo Nhân Dân. ", 
-    link: "https://nhandan.vn/tin-tuc-the-gioi/cuoc-dua-san-xuat-xe-tu-lai-630649", 
+  {
+    name: "Đoàn Hiếu. “Cuộc đua sản xuất xe tự lái”. Báo Nhân Dân. ",
+    link: "https://nhandan.vn/tin-tuc-the-gioi/cuoc-dua-san-xuat-xe-tu-lai-630649",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: "Tùng Linh. “Công nghệ xe tự lái của Việt Nam đã phát triển đến đâu?”. Báo Tiền Phong.", 
-    link: "https://tienphong.vn/cong-nghe-xe-tu-lai-cua-viet-nam-da-phat-trien-den-dau-post1370279.tpo", 
+  {
+    name: "Tùng Linh. “Công nghệ xe tự lái của Việt Nam đã phát triển đến đâu?”. Báo Tiền Phong.",
+    link: "https://tienphong.vn/cong-nghe-xe-tu-lai-cua-viet-nam-da-phat-trien-den-dau-post1370279.tpo",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: "Sound of sleep. “White, Pink, and Brown Noise: What’s the difference?.” soundofsleep.com. ", 
-    link: "https://www.soundofsleep.com/white-pink-brown-noise-whats-difference/", 
+  {
+    name: "Sound of sleep. “White, Pink, and Brown Noise: What’s the difference?.” soundofsleep.com. ",
+    link: "https://www.soundofsleep.com/white-pink-brown-noise-whats-difference/",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: "React. “React - A javascript library for building user interfaces.” reactjs.org", 
-    link: "https://reactjs.org/", 
+  {
+    name: "React. “React - A javascript library for building user interfaces.” reactjs.org",
+    link: "https://reactjs.org/",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: `myNoise. "Focus at Work • Relax at Home • Sleep at Night." mynoise.net.`, 
-    link: "https://mynoise.net/", 
+  {
+    name: `myNoise. "Focus at Work • Relax at Home • Sleep at Night." mynoise.net.`,
+    link: "https://mynoise.net/",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: "Unsplash. “The internet’s source of freely-usable images.” unsplash.com", 
-    link: "https://unsplash.com/", 
+  {
+    name: "Unsplash. “The internet’s source of freely-usable images.” unsplash.com",
+    link: "https://unsplash.com/",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: "Firebase. “Firebase helps you build and run successful apps.” firebase.google.com. ", 
-    link: "https://firebase.google.com/", 
+  {
+    name: "Firebase. “Firebase helps you build and run successful apps.” firebase.google.com. ",
+    link: "https://firebase.google.com/",
     date: "(accessed Dec. 9, 2021)",
   },
-  { 
-    name: "Rest API Tutorial. “What is Rest.” restfulapi.net.", 
-    link: "https://restfulapi.net/", 
+  {
+    name: "Rest API Tutorial. “What is Rest.” restfulapi.net.",
+    link: "https://restfulapi.net/",
     date: "(accessed Dec. 9, 2021)",
   },
 ];
