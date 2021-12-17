@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/spotifour/static/css/main.93896d47.chunk.css",
-    "main.js": "/spotifour/static/js/main.1bfdc0d9.chunk.js",
-    "main.js.map": "/spotifour/static/js/main.1bfdc0d9.chunk.js.map",
-    "runtime-main.js": "/spotifour/static/js/runtime-main.89b97b98.js",
-    "runtime-main.js.map": "/spotifour/static/js/runtime-main.89b97b98.js.map",
+    "main.css": "/spotifour/static/css/main.b716e2c8.chunk.css",
+    "main.js": "/spotifour/static/js/main.1711c880.chunk.js",
+    "main.js.map": "/spotifour/static/js/main.1711c880.chunk.js.map",
+    "runtime-main.js": "/spotifour/static/js/runtime-main.b05aa4c7.js",
+    "runtime-main.js.map": "/spotifour/static/js/runtime-main.b05aa4c7.js.map",
     "static/css/2.99d03d7f.chunk.css": "/spotifour/static/css/2.99d03d7f.chunk.css",
-    "static/js/2.a0b1d040.chunk.js": "/spotifour/static/js/2.a0b1d040.chunk.js",
-    "static/js/2.a0b1d040.chunk.js.map": "/spotifour/static/js/2.a0b1d040.chunk.js.map",
-    "static/js/3.edc42ff0.chunk.js": "/spotifour/static/js/3.edc42ff0.chunk.js",
-    "static/js/3.edc42ff0.chunk.js.map": "/spotifour/static/js/3.edc42ff0.chunk.js.map",
+    "static/js/2.4658f148.chunk.js": "/spotifour/static/js/2.4658f148.chunk.js",
+    "static/js/2.4658f148.chunk.js.map": "/spotifour/static/js/2.4658f148.chunk.js.map",
+    "static/js/3.cecf5e8f.chunk.js": "/spotifour/static/js/3.cecf5e8f.chunk.js",
+    "static/js/3.cecf5e8f.chunk.js.map": "/spotifour/static/js/3.cecf5e8f.chunk.js.map",
     "index.html": "/spotifour/index.html",
     "static/css/2.99d03d7f.chunk.css.map": "/spotifour/static/css/2.99d03d7f.chunk.css.map",
-    "static/css/main.93896d47.chunk.css.map": "/spotifour/static/css/main.93896d47.chunk.css.map",
-    "static/js/2.a0b1d040.chunk.js.LICENSE.txt": "/spotifour/static/js/2.a0b1d040.chunk.js.LICENSE.txt",
+    "static/css/main.b716e2c8.chunk.css.map": "/spotifour/static/css/main.b716e2c8.chunk.css.map",
+    "static/js/2.4658f148.chunk.js.LICENSE.txt": "/spotifour/static/js/2.4658f148.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/spotifour/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.89b97b98.js",
+    "static/js/runtime-main.b05aa4c7.js",
     "static/css/2.99d03d7f.chunk.css",
-    "static/js/2.a0b1d040.chunk.js",
-    "static/css/main.93896d47.chunk.css",
-    "static/js/main.1bfdc0d9.chunk.js"
+    "static/js/2.4658f148.chunk.js",
+    "static/css/main.b716e2c8.chunk.css",
+    "static/js/main.1711c880.chunk.js"
   ]
 }
