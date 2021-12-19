@@ -52,7 +52,7 @@ function ProjectIdeas() {
   );
 
   const text = useMemo(() => {
-    return projectIdeasSection === "description"
+    return projectIdeasSection === "description" || projectIdeasSection === "motivation"
       ? projectInfo[projectIdeasSection].map((paragraph) => (
           <>
             <p>{paragraph}</p>
